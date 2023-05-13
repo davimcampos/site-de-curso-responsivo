@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Cursos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo.png" alt="logo do site"> </a>
+            </div>
+
+            <div class="opcoes">
+                <ul>
+                    <li><a href="">Seja professor</a></li>
+                    <li><a href="">Assine nosso plano</a></li>
+                </ul>
+
+            </div>
+            <div class="botoes">
+                <button class=botao id="login">Login</button>
+                <button class=botao id="cadastrar">Cadastrar</button>
+            </div>
+
+            <button onclick="mostrarMenu()" id="sandwich">&#9776;</button>
+
+        </nav>
+
+        <div class="menu-responsivo">
+
+            <ul>
+
+                <li><a href="" id="entrar">Entrar</a></li>
+                <li><a href="" id="cadastrar">Cadastrar</a></li>
+                <li><a href="">Seja professor</a></li>
+                <li><a href="">Assine nosso plano</a></li>
+
+            </ul>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container-slides">
+
+
+            <div class="slider-list">
+
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+
+
+                <div class="slide-" id="slide-1">
+
+                    <div class="container-card-slider" id="card-slider1">
+
+                        <div class="card-slider">
+                            <h2 class="titulo-card">Aprenda novas</h2>
+                            <h2 class="titulo-card">linguagens agora</h2>
+
+
+                            <p class="paragrafos-card">Suspendisse iaculis dapibus elit at auctor. Sed mollis, neque a
+                                aliquam
+                                interdum, ipsum nisi
+                                fermentum velit, ut sodales tellus lacus vitae justo. Praesent luctus
+
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                    <img src="images/slide1.jpg" alt="" id="imagem1">
+
+                </div>
+
+                <div class="slide-">
+                    <div class="container-card-slider" id="card-slider2">
+
+                        <div class="card-slider">
+                            <h2 class="titulo-card">Muitos cursos</h2>
+                            <h2 class="titulo-card">disponíveis</h2>
+
+
+                            <p class="paragrafos-card">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                posuere cubilia curae; Pellentesque orci metus, bibendum sit amet purus sed, fringilla
+                                fringilla arcu.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <img src="images/slide2.jpg" alt="" id="imagem2">
+
+                </div>
+
+
+                <div class="slide-">
+                    <div class="container-card-slider" id="card-slider3">
+
+                        <div class="card-slider">
+                            <h2 class="titulo-card">Promoções toda</h2>
+                            <h2 class="titulo-card">semana</h2>
+
+
+                            <p class="paragrafos-card">Praesent sit amet nisi blandit nulla posuere hendrerit at et mi.
+                                Integer metus justo, tempor nec dolor ut, posuere vulputate justo. Phasellus congue,
+                                dolor.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <img src="images/slide3.jpg" alt="" id="imagem3">
+
+                </div>
+
+            </div>
+
+            <div class="botao-transicao">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+
+            </div>
+
+            </div>
+
+        </section>
+
+        <section class="container">
+
+            <div class="principal">
+                <div class="titulo">
+                    <h1>Uma ampla seleção de cursos</h1>
+                    <p class="paragrafo-titulo">Escolha entre diversos cursos de programação em vídeo online </p>
+                    <p>com novas adições publicadas mensalmente</p>
+                </div>
+                <div class="container-cards">
+
+                    <div class="cards1">
+                        <div id="card1" class="card-curso">
+                            <img src="images/htmlecss.jpg" alt="html e css logotipo imagem">
+                            <p class="paragrafo">HTML5 E CSS3 2023 (completo)</p>
+                            <p class="paragrafo">R$29,99</p>
+                        </div>
+
+                        <div id="card2" class="card-curso">
+                            <img src="images/python.png" alt="python logotipo imagem">
+                            <p class="paragrafo">PYTHON3 DO BÁSICO AO AVANÇADO</p>
+                            <p class="paragrafo">R$69,00</p>
+                        </div>
+                        <div id="card3" class="card-curso">
+                            <img src="images/csharp.png" alt="csharp logotipo imagem">
+                            <p class="paragrafo">C# DO BÁSICO AO AVANÇADO</p>
+                            <p class="paragrafo">R$55,99</p>
+                        </div>
+                    </div>
+
+                    <div class="cards2">
+                        <div id="card4" class="card-curso">
+                            <img src="images/js.png" alt="javascript imagem logotipo">
+                            <p class="paragrafo">JAVASCRIPT DO BÁSICO AO AVANÇADO</p>
+                            <p class="paragrafo">R$41,99</p>
+                        </div>
+                        <div id="card5" class="card-curso">
+                            <img src="images/java.jpg" alt="java logotipo imagem">
+                            <p class="paragrafo">JAVA DO BÁSICO AO AVANÇADO</p>
+                            <p class="paragrafo">R$53,99</p>
+                        </div>
+                        <div id="card6" class="card-curso">
+                            <img src="images/php.png" alt="php imagem logotipo">
+                            <p class="paragrafo">PHP DO BÁSICO AO AVANÇADO</p>
+                            <p class="paragrafo">R$79,99</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="container">
+
+        <div class="informacoes">
+            <ul class="lista1">
+                <li><a href=""> Obtenha o aplicativo</a></li>
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Fale conosco</a></li>
+                <li><a href="">Carreiras</a></li>
+            </ul>
+
+            <ul class="lista2">
+
+                <li><a href="">Configurações de cookie</a></li>
+                <li><a href="">Ajuda e suporte</a></li>
+                <li><a href="">Termos</a></li>
+                <li><a href="">Política de privacidade</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="github-footer">
+            <a href="https://www.github.com/davimcampos" target="_blank"><img src="images/github-icone.png"></a>
+            <a href="https://www.github.com/davimcampos" target="_blank">davimcampos</a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
